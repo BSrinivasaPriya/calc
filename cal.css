@@ -1,0 +1,36 @@
+body {
+    background-image: url('calc.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+}
+button {
+
+    background:linear-gradient(cyan,green);
+    border: 1px solid hsl(0, 65%, 32%)c1c;
+    border-radius: 5px;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 45%;
+}
+button:hover{
+    background: rgb(135, 12, 94);
+    cursor: pointer;
+}
+h2 {
+    text-color: blue;
+    width: 100%; 
+    margin-bottom: 50px;
+}
+#result{
+    width:120px;
+    height: 30px;
+}
+#priya{
+    border-color: blue;
+}
